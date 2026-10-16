@@ -33,9 +33,22 @@ onMounted(carregarTutor);
     <p v-if="naoEncontrado">Opa, tutor não encontrado!</p>
 
     <div v-else>
+      <h2>Dados do Tutor</h2>
       <p><strong>ID:</strong> {{ tutor.id }}</p>
       <p><strong>Nome:</strong> {{ tutor.nome }}</p>
       <p><strong>Telefone:</strong> {{ tutor.telefone }}</p>
+      <p><strong>cpf:</strong>{{ tutor.cpf }}</p>
+      <p><strong>Data Nascimento:</strong>{{ tutor.nascimento }}</p>
+      <p><strong>E-mail:</strong>{{ tutor.email }}</p>
+      <h2>Endereço</h2>
+      <p><strong>Rua:</strong>{{ tutor.rua }}</p>
+      <p><strong>Bairro:</strong>{{ tutor.bairro }}</p>
+      <p><strong>Cidade:</strong>{{ tutor.cidade }}</p>
+      <p><strong>Número:</strong>{{ tutor.numero }}</p>
+      <p><strong>Estado:</strong>{{ tutor.estado }}</p>
+      <p><strong>CEP:</strong>{{ tutor.cep }}</p>
+
+
     </div>
 
     <RouterLink

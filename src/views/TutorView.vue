@@ -51,7 +51,11 @@ onMounted(carregarTutores);
         <th>ID</th>
         <th>Nome</th>
         <th>Telefone</th>
+        <th>cpf/cnpj</th>
+        <th>Data Nascimento</th>
+        <th>E-mail</th>
         <th>Ações</th>
+        
       </tr>
     </thead>
     <tbody>
@@ -62,6 +66,9 @@ onMounted(carregarTutores);
         <td>{{ tutor.id }}</td>
         <td>{{ tutor.nome }}</td>
         <td>{{ tutor.telefone }}</td>
+        <td>{{ tutor.cpf }}</td>
+        <td>{{ tutor.nascimento }}</td>
+        <td>{{ tutor.email }}</td>
         <td>
           <RouterLink :to="`/tutores/${tutor.id}`"> Visualizar </RouterLink>
           <button

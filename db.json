@@ -6,9 +6,32 @@
       "telefone": "47999990000"
     },
     {
-      "nome": "Elídio",
-      "telefone": "406667676767",
-      "id": "prS28b7wH3s"
+      "nome": "Carlinhos",
+      "telefone": "47992673233",
+      "cpf": "12874185973",
+      "email": "carloslvr09@gmail.com",
+      "nascimento": "2026-10-02",
+      "rua": "martin pescador",
+      "bairro": "aventureiro",
+      "cidade": "joinville",
+      "numero": "147",
+      "estado": "sc",
+      "cep": "89225050",
+      "id": "Dy-_kXXFenM"
+    },
+    {
+      "nome": "Jalambi Pal",
+      "cpf": "00000000000",
+      "telefone": "00000000000",
+      "email": "jalambipal@gmail.com",
+      "nascimento": "2026-10-16",
+      "rua": "jal",
+      "numero": "pal",
+      "bairro": "ambi",
+      "cidade": "pal",
+      "estado": "PE",
+      "cep": "pal",
+      "id": "zTvITeqv1X4"
     }
   ],
   "pets": [
@@ -19,16 +42,16 @@
       "tutorId": "1"
     },
     {
-      "nome": "Chuvisco",
-      "especie": "Gato",
-      "tutorId": "2",
-      "id": "wvf0kMTJ8S0"
-    },
-    {
       "nome": "Amora",
       "especie": "Hamster",
       "tutorId": "1",
       "id": "V9bTKiCwfNE"
+    },
+    {
+      "nome": "Elídio FIlho",
+      "especie": "Cachorro",
+      "tutorId": "Dy-_kXXFenM",
+      "id": "rTtcSYYUl7o"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
